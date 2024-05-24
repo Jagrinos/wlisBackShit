@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q0gNVod6TWPIpF+ZnqBgDvyT/E0lyVavx/s7cPUa8Es868Lb8Nmy0/DcXCiVx4lD9Sj/pRoShPlMFjuX0toPOA==",
+  "dgSpecHash": "fzXZPRWfIEjAcx3NaMNlwhGWYN+8yzwzbdFTKlUW+6kuuA7TgJslIenEFBZKqNHH5dHyG1BGRLkCJYSCmo2AlQ==",
   "success": true,
-  "projectFilePath": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\WLISBackWITHOUTCOMMUNIKATION(((.csproj",
+  "projectFilePath": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\WLISBackendFull.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kolya\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\kolya\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

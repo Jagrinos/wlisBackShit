@@ -12,6 +12,18 @@ namespace WLISBackWITHOUTCOMMUNIKATION___.Contexts
             Database.EnsureCreated();
         }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Song>()
+            .HasMany(s => s.Artists)
+            .WithMany(a => a.Songs);
+
+            modelBuilder.Entity<Song>()
+                .HasOne(s => s.Album)
+                .WithMany(a => a.Songs)
+                .HasForeignKey(s => s.AlbumId);
+        }
+
         public DbSet<Album> Albums { get; set; }
         public DbSet<Artist> Artists { get; set; } 
         public DbSet<Merch> Merches { get; set; } 

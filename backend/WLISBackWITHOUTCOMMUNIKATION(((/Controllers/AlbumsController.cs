@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using WLISBackend.models;
 using WLISBackWITHOUTCOMMUNIKATION___.Contexts;
 using WLISBackWITHOUTCOMMUNIKATION___.requests;
+using WLISBackWITHOUTCOMMUNIKATION___.Response;
 
 namespace WLISBackWITHOUTCOMMUNIKATION___.Controllers
 {
@@ -15,18 +16,46 @@ namespace WLISBackWITHOUTCOMMUNIKATION___.Controllers
         [HttpGet]
         public async Task<ActionResult<List<Album>>> GetAlbums()
         {
-            return await CX.Albums.ToListAsync();
+            var albums =  await CX.Albums.Include(a => a.Songs).ThenInclude(s => s.Artists).ToListAsync();
+
+            var AlbumsResponse = albums.Select(alb => new AlbumResponse
+            {
+                Id = alb.Id,
+                Title = alb.Title,
+                Description = alb.Description,
+                Songs = alb.Songs.Select(sng => new SongResponse
+                {
+                    Id = sng.Id,
+                    Title = sng.Title,
+                    Artists = sng.Artists.Select(art => new ArtistResponse
+                    {
+                        Id = art.Id,
+                        Name = art.Name,
+                        Role = art.Role
+                    }).ToList(),
+                    
+                }).ToList()
+            });
+
+            return Ok(AlbumsResponse);
         }
 
         [HttpPost]
-        public async Task<ActionResult<Guid>> CreateAlbum([FromBody] AlbumRequest request)
+        public async Task<ActionResult<AlbumResponse>> CreateAlbum([FromBody] AlbumRequest request)
         {
-            var newAlbum = new Album(){ Id = Guid.NewGuid(), Title = request.Title, Description = request.Description, Songs = new List<string>(request.Songs) };
+            var newAlbum = new Album(){ Id = Guid.NewGuid(), Title = request.Title, Description = request.Description };
 
             await CX.Albums.AddAsync(newAlbum);
             await CX.SaveChangesAsync();
 
-            return Ok(newAlbum.Id);
+            var AlbumResponse = new AlbumResponse()
+            {
+                Id = newAlbum.Id,
+                Title = newAlbum.Title,
+                Description = newAlbum.Description
+            };
+
+            return Ok(AlbumResponse);
         }
 
         [HttpPut("{id::guid}")]
@@ -40,7 +69,6 @@ namespace WLISBackWITHOUTCOMMUNIKATION___.Controllers
             ExecuteUpdateAsync(a => a
             .SetProperty(a => a.Title, a => request.Title)
             .SetProperty(a => a.Description, a => request.Description)
-            .SetProperty(a => a.Songs, new List<string>(request.Songs))
             );
             return Ok(id);
 

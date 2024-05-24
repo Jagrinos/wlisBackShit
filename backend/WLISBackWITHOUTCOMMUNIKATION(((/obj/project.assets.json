@@ -2679,9 +2679,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\WLISBackWITHOUTCOMMUNIKATION(((.csproj",
-      "projectName": "WLISBackWITHOUTCOMMUNIKATION(((",
-      "projectPath": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\WLISBackWITHOUTCOMMUNIKATION(((.csproj",
+      "projectUniqueName": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\WLISBackendFull.csproj",
+      "projectName": "WLISBackendFull",
+      "projectPath": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\WLISBackendFull.csproj",
       "packagesPath": "C:\\Users\\kolya\\.nuget\\packages\\",
       "outputPath": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\obj\\",
       "projectStyle": "PackageReference",

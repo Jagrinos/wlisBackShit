@@ -3,7 +3,6 @@
     public record AlbumRequest
     (
         string Title,
-        string Description,
-        List<string> Songs 
+        string Description
     );
 }

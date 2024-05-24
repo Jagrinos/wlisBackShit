@@ -29,7 +29,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<FullContext>(
     options =>
     {
-        options.UseSqlite("Data Source=wlisdb.CX");
+        options.UseSqlite("Data Source=wlisdb.db");
     }
 );
 

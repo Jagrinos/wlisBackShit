@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using WLISBackend.models;
 using WLISBackend.requests;
 using WLISBackWITHOUTCOMMUNIKATION___.Contexts;
+using WLISBackWITHOUTCOMMUNIKATION___.Response;
 
 namespace WLISBackend.Controllers
 {
@@ -16,18 +17,52 @@ namespace WLISBackend.Controllers
         [HttpGet]
         public async Task<ActionResult<List<Artist>>> GetArtists()
         {
-            return await CX.Artists.ToListAsync();
+            var artists =  await CX.Artists.Include(a=> a.Songs).ThenInclude(S=>S.Album).ToListAsync();
+
+            var artistsRequest = artists.Select(art => new ArtistResponse
+            {
+                Id = art.Id,
+                Name = art.Name,
+                Role = art.Role,
+                Songs = art.Songs.Select(sng => new SongResponse
+                {
+                    Id = sng.Id,
+                    Title = sng.Title,
+                    Artists = sng.Artists.Select(art2 => new ArtistResponse
+                    {
+                        Id = art2.Id,
+                        Name = art2.Name,
+                        Role = art2.Role
+                    }).ToList(),
+                    Album = new AlbumResponse
+                    {
+                        Id = sng.Album.Id,
+                        Description = sng.Album.Description,
+                        Title = sng.Album.Title
+                    }
+
+                }).ToList()
+            }).ToList();
+
+            return Ok(artistsRequest);
         }
-        [Authorize(Roles = "ADMIN")]
+        
+
         [HttpPost]
-        public async Task<ActionResult<Guid>> CreateArtist([FromBody] ArtistRequest request)
+        public async Task<ActionResult<ArtistResponse>> CreateArtist([FromBody] ArtistRequest request)
         {
-            var newArtist = new Artist() { Id = Guid.NewGuid(), Name = request.Name, Role = request.Role, Songs = new List<string>(request.Songs) };
+            var newArtist = new Artist() { Id = Guid.NewGuid(), Name = request.Name, Role = request.Role};
 
             await CX.Artists.AddAsync(newArtist);
             await CX.SaveChangesAsync();
 
-            return Ok(newArtist.Id);
+            var ArtistResponse = new ArtistResponse()
+            {
+                Id = newArtist.Id,
+                Name = newArtist.Name,
+                Role = newArtist.Role
+            };
+            return Ok(ArtistResponse);
         }
 
         [HttpPut("{id::guid}")]
@@ -41,7 +76,6 @@ namespace WLISBackend.Controllers
             ExecuteUpdateAsync(a => a
             .SetProperty(a => a.Name, a => request.Name)
             .SetProperty(a => a.Role, a => request.Role)
-            .SetProperty(a => a.Songs, new List<string>(request.Songs))
             );
             return Ok(id);
 
