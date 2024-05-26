@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using WLISBackend.models;
 using WLISBackWITHOUTCOMMUNIKATION___.Auntefication;
+using WLISBackWITHOUTCOMMUNIKATION___.Models;
 
 namespace WLISBackWITHOUTCOMMUNIKATION___.Contexts
 {
@@ -31,6 +32,8 @@ namespace WLISBackWITHOUTCOMMUNIKATION___.Contexts
         public DbSet<Project> Projects { get; set; } 
         public DbSet<Song> Songs { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<Ip> Ips { get; set; }
+
 
     }
 }

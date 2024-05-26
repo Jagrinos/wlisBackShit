@@ -79,3 +79,11 @@ E:\cishechka\progectiki\WLISBackWITHOUTCOMMUNIKATION(((\obj\Debug\net8.0\refint\
 E:\cishechka\progectiki\WLISBackWITHOUTCOMMUNIKATION(((\obj\Debug\net8.0\WLISBackendFull.pdb
 E:\cishechka\progectiki\WLISBackWITHOUTCOMMUNIKATION(((\obj\Debug\net8.0\WLISBackendFull.genruntimeconfig.cache
 E:\cishechka\progectiki\WLISBackWITHOUTCOMMUNIKATION(((\obj\Debug\net8.0\ref\WLISBackendFull.dll
+E:\cishechka\progectiki\WLISBackWITHOUTCOMMUNIKATION(((\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\cishechka\progectiki\WLISBackWITHOUTCOMMUNIKATION(((\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\cishechka\progectiki\WLISBackWITHOUTCOMMUNIKATION(((\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\cishechka\progectiki\WLISBackWITHOUTCOMMUNIKATION(((\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\cishechka\progectiki\WLISBackWITHOUTCOMMUNIKATION(((\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\cishechka\progectiki\WLISBackWITHOUTCOMMUNIKATION(((\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\cishechka\progectiki\WLISBackWITHOUTCOMMUNIKATION(((\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\cishechka\progectiki\WLISBackWITHOUTCOMMUNIKATION(((\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

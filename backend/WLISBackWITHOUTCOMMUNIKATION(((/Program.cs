@@ -1,9 +1,9 @@
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
-using System.Security.Claims;
-using WLISBackWITHOUTCOMMUNIKATION___.Auntefication;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
+using System.Configuration;
+using System.Text;
 using WLISBackWITHOUTCOMMUNIKATION___.Contexts;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,24 +14,13 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 
-//autor
-//builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-//    .AddCookie(options =>
- //   {
- //       options.LoginPath = "/login";
- //       options.AccessDeniedPath = "/accessdenied";
-  //  });
-//builder.Services.AddAuthorization();
-//autor
-
-
-
 builder.Services.AddDbContext<FullContext>(
     options =>
     {
-        options.UseSqlite("Data Source=wlisdb.db");
+        options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"));
     }
 );
+
 
 var app = builder.Build();
 
@@ -45,6 +34,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 
@@ -58,3 +48,4 @@ app.UseCors(x =>
 });
 
 app.Run();
+

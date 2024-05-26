@@ -3,36 +3,68 @@
   "WorkspaceRootPath": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|e:\\cishechka\\progectiki\\wlisbackwithoutcommunikation(((\\controllers\\songscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|solutionrelative:controllers\\songscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|e:\\cishechka\\progectiki\\wlisbackwithoutcommunikation(((\\controllers\\ipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|solutionrelative:controllers\\ipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|e:\\cishechka\\progectiki\\wlisbackwithoutcommunikation(((\\controllers\\albumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|solutionrelative:controllers\\albumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|e:\\cishechka\\progectiki\\wlisbackwithoutcommunikation(((\\response\\albumresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|solutionrelative:response\\albumresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|e:\\cishechka\\progectiki\\wlisbackwithoutcommunikation(((\\controllers\\merchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|solutionrelative:controllers\\merchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|e:\\cishechka\\progectiki\\wlisbackwithoutcommunikation(((\\response\\artistresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|solutionrelative:response\\artistresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|e:\\cishechka\\progectiki\\wlisbackwithoutcommunikation(((\\controllers\\songscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|solutionrelative:controllers\\songscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|e:\\cishechka\\progectiki\\wlisbackwithoutcommunikation(((\\response\\albumresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|solutionrelative:response\\albumresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|e:\\cishechka\\progectiki\\wlisbackwithoutcommunikation(((\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|e:\\cishechka\\progectiki\\wlisbackwithoutcommunikation(((\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|e:\\cishechka\\progectiki\\wlisbackwithoutcommunikation(((\\models\\ip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|solutionrelative:models\\ip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|e:\\cishechka\\progectiki\\wlisbackwithoutcommunikation(((\\requests\\iprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|solutionrelative:requests\\iprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|e:\\cishechka\\progectiki\\wlisbackwithoutcommunikation(((\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|e:\\cishechka\\progectiki\\wlisbackwithoutcommunikation(((\\contexts\\fullcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|solutionrelative:contexts\\fullcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|e:\\cishechka\\progectiki\\wlisbackwithoutcommunikation(((\\response\\songresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|solutionrelative:response\\songresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|e:\\cishechka\\progectiki\\wlisbackwithoutcommunikation(((\\requests\\userrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|solutionrelative:requests\\userrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|e:\\cishechka\\progectiki\\wlisbackwithoutcommunikation(((\\controllers\\albumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|solutionrelative:controllers\\albumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|e:\\cishechka\\progectiki\\wlisbackwithoutcommunikation(((\\controllers\\artistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|solutionrelative:controllers\\artistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|e:\\cishechka\\progectiki\\wlisbackwithoutcommunikation(((\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|e:\\cishechka\\progectiki\\wlisbackwithoutcommunikation(((\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|e:\\cishechka\\progectiki\\wlisbackwithoutcommunikation(((\\response\\songresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA7AE174-1A63-46AC-88A7-A17AC914F82B}|WLISBackendFull.csproj|solutionrelative:response\\songresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,17 +74,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAABAAAAAHAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-19T13:55:03.007Z",
               "IsPinned": true,
@@ -60,13 +92,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "FullContext.cs",
               "DocumentMoniker": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\Contexts\\FullContext.cs",
               "RelativeDocumentMoniker": "Contexts\\FullContext.cs",
               "ToolTip": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\Contexts\\FullContext.cs",
               "RelativeToolTip": "Contexts\\FullContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAJAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAACMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-19T16:52:05.877Z",
               "IsPinned": true,
@@ -86,33 +118,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Ip.cs",
+              "DocumentMoniker": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\Models\\Ip.cs",
+              "RelativeDocumentMoniker": "Models\\Ip.cs",
+              "ToolTip": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\Models\\Ip.cs",
+              "RelativeToolTip": "Models\\Ip.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T12:32:33.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T12:31:04.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "SongResponse.cs",
-              "DocumentMoniker": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\Response\\SongResponse.cs",
-              "RelativeDocumentMoniker": "Response\\SongResponse.cs",
-              "ToolTip": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\Response\\SongResponse.cs",
-              "RelativeToolTip": "Response\\SongResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA7AAAA",
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAowCUAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T18:39:57.734Z",
+              "WhenOpened": "2024-05-24T17:42:28.474Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ArtistResponse.cs",
-              "DocumentMoniker": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\Response\\ArtistResponse.cs",
-              "RelativeDocumentMoniker": "Response\\ArtistResponse.cs",
-              "ToolTip": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\Response\\ArtistResponse.cs",
-              "RelativeToolTip": "Response\\ArtistResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T18:39:57.225Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AlbumResponse.cs",
               "DocumentMoniker": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\Response\\AlbumResponse.cs",
               "RelativeDocumentMoniker": "Response\\AlbumResponse.cs",
@@ -125,7 +170,97 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SongsController.cs",
+              "DocumentMoniker": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\Controllers\\SongsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SongsController.cs",
+              "ToolTip": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\Controllers\\SongsController.cs",
+              "RelativeToolTip": "Controllers\\SongsController.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAuwFkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T17:42:14.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ArtistResponse.cs",
+              "DocumentMoniker": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\Response\\ArtistResponse.cs",
+              "RelativeDocumentMoniker": "Response\\ArtistResponse.cs",
+              "ToolTip": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\Response\\ArtistResponse.cs",
+              "RelativeToolTip": "Response\\ArtistResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T18:39:57.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MerchesController.cs",
+              "DocumentMoniker": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\Controllers\\MerchesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MerchesController.cs",
+              "ToolTip": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\Controllers\\MerchesController.cs",
+              "RelativeToolTip": "Controllers\\MerchesController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowCwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T17:40:27.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IpController.cs",
+              "DocumentMoniker": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\Controllers\\IpController.cs",
+              "RelativeDocumentMoniker": "Controllers\\IpController.cs",
+              "ToolTip": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\Controllers\\IpController.cs",
+              "RelativeToolTip": "Controllers\\IpController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowDQAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T12:37:34.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserRequest.cs",
+              "DocumentMoniker": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\Requests\\UserRequest.cs",
+              "RelativeDocumentMoniker": "Requests\\UserRequest.cs",
+              "ToolTip": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\Requests\\UserRequest.cs",
+              "RelativeToolTip": "Requests\\UserRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T12:31:20.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IpRequest.cs",
+              "DocumentMoniker": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\Requests\\IpRequest.cs",
+              "RelativeDocumentMoniker": "Requests\\IpRequest.cs",
+              "ToolTip": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\Requests\\IpRequest.cs",
+              "RelativeToolTip": "Requests\\IpRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T12:45:43.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-24T17:33:34.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "AlbumsController.cs",
               "DocumentMoniker": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\Controllers\\AlbumsController.cs",
               "RelativeDocumentMoniker": "Controllers\\AlbumsController.cs",
@@ -138,29 +273,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "ArtistController.cs",
               "DocumentMoniker": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\Controllers\\ArtistController.cs",
               "RelativeDocumentMoniker": "Controllers\\ArtistController.cs",
               "ToolTip": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\Controllers\\ArtistController.cs",
               "RelativeToolTip": "Controllers\\ArtistController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAgAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAqwBkAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-19T21:04:48.18Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SongsController.cs",
-              "DocumentMoniker": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\Controllers\\SongsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\SongsController.cs",
-              "ToolTip": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\Controllers\\SongsController.cs",
-              "RelativeToolTip": "Controllers\\SongsController.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAmwDsAAAARAAAA",
+              "DocumentIndex": 15,
+              "Title": "SongResponse.cs",
+              "DocumentMoniker": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\Response\\SongResponse.cs",
+              "RelativeDocumentMoniker": "Response\\SongResponse.cs",
+              "ToolTip": "E:\\cishechka\\progectiki\\WLISBackWITHOUTCOMMUNIKATION(((\\Response\\SongResponse.cs",
+              "RelativeToolTip": "Response\\SongResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T17:42:14.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-23T18:39:57.734Z"
             }
           ]
         }

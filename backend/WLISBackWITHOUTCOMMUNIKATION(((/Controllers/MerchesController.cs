@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WLISBackend.models;
 using WLISBackWITHOUTCOMMUNIKATION___.Contexts;
@@ -17,7 +18,6 @@ namespace WLISBackWITHOUTCOMMUNIKATION___.Controllers
         {
             return await CX.Merches.ToListAsync();
         }
-
         [HttpPost]
         public async Task<ActionResult<Guid>> CreateMerch([FromBody] MerchRequest request)
         {
@@ -43,9 +43,6 @@ namespace WLISBackWITHOUTCOMMUNIKATION___.Controllers
             .SetProperty(m => m.Price, m => request.Price)
             );
             return Ok(id);
-
-
-
         }
 
         [HttpDelete("{id::guid}")]

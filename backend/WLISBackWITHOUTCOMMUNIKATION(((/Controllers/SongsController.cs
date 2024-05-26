@@ -61,19 +61,7 @@ namespace WLISBackend.Controllers
                 await CX.Songs.AddAsync(newSong);
                 await CX.SaveChangesAsync();
 
-                foreach (var song in CX.Songs)
-                {
-                    Console.WriteLine($"song.Artists.Count = {song.Artists.Count} \n song.Album.Title = {song.Album.Title} ");
-                }
-                foreach (var song in CX.Artists)
-                {
-                    Console.WriteLine($"Artists.Songs.Count = {song.Songs.Count}");
-                }
-                foreach (var song in CX.Albums)
-                {
-                    Console.WriteLine($"Albums.Songs.Count = {song.Songs.Count}");
-                }
-
+               
 
                 return Ok();
             }
